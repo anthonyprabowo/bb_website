@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'watcher';
+  src: url('../font/watcher/watcherpersonalusebold-bwexb-webfont.woff2') format('woff2'),
+       url('../font/watcher/watcherpersonalusebold-bwexb-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'good-unicorn';
+  src: url('../font/goodunicorn/goodunicornregular-rxev-webfont.woff2') format('woff2'),
+       url('../font/goodunicorn/goodunicornregular-rxev-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'quite-magical';
+  src: url('../font/quitemagical/quitemagicalregular-8va2-webfont.woff2') format('woff2'),
+       url('../font/quitemagical/quitemagicalregular-8va2-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/citi-bg.jpg') center center no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+.section__container {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.section__title{
+  font-family: 'good-unicorn', Arial, Helvetica, sans-serif;
+  font-size: 102px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+
+.section__paragraph{
+  font-family: 'Raleway';
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
